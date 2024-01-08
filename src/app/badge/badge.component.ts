@@ -6,5 +6,6 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./badge.component.scss']
 })
 export class BadgeComponent {
+  @Input() index: number = 0;
   @Input() heroId: number = 0;
 }

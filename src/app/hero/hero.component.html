@@ -1,8 +1,8 @@
 <h2>My Heroes</h2>
 <ul class="heroes">
-  <li *ngFor="let hero of heroes">
+  <li *ngFor="let hero of heroes; let i = index">
     <a routerLink="/detail/{{hero.id}}">
-      <app-badge [heroId]="hero.id"></app-badge>
+      <app-badge [index]="i" [heroId]="hero.id"></app-badge>
       <span>{{hero.name}}</span>
       <span *ngIf="hero.superpower">💥</span>
     </a>
