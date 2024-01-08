@@ -3,3 +3,9 @@ export type Hero = {
   name: string;
   superpower?: string;
 };
+
+export type Contact = {
+  company: string;
+  name: string;
+  email: string;
+};
