@@ -3,7 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
 
-  {path: '', pathMatch: 'full', redirectTo: '/heroes'},
+  {path: '', pathMatch: 'full', redirectTo: '/dashboard'},
   {path: 'heroes', loadChildren: () => import('./hero/hero.module').then(m => m.HeroModule)},
   {path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)},
 
