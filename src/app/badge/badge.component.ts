@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-badge',
@@ -9,4 +9,9 @@ import {Component, Input} from '@angular/core';
 export class BadgeComponent {
   @Input() index: number = 0;
   @Input() heroId: number = 0;
+  @Output() badgeClicked: EventEmitter<number> = new EventEmitter<number>();
+
+  onClick() {
+    this.badgeClicked.emit(this.heroId);
+  }
 }
