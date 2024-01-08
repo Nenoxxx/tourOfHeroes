@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HeroDetailRoutingModule } from './hero-detail-routing.module';
+import {HeroDetailRoutingModule} from './hero-detail-routing.module';
 import {HeroDetailComponent} from "./hero-detail.component";
 import {FormsModule} from "@angular/forms";
 
@@ -16,4 +16,5 @@ import {FormsModule} from "@angular/forms";
     FormsModule
   ]
 })
-export class HeroDetailModule { }
+export class HeroDetailModule {
+}

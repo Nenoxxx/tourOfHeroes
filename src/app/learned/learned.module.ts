@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { LearnedRoutingModule } from './learned-routing.module';
-import { LearnedComponent } from './learned.component';
+import {LearnedRoutingModule} from './learned-routing.module';
+import {LearnedComponent} from './learned.component';
 
 
 @NgModule({
@@ -14,4 +14,5 @@ import { LearnedComponent } from './learned.component';
     LearnedRoutingModule
   ]
 })
-export class LearnedModule { }
+export class LearnedModule {
+}

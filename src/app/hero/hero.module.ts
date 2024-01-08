@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HeroRoutingModule } from './hero-routing.module';
+import {HeroRoutingModule} from './hero-routing.module';
 import {HeroComponent} from "./hero.component";
 import {BadgeComponent} from "../badge/badge.component";
 
@@ -16,4 +16,5 @@ import {BadgeComponent} from "../badge/badge.component";
     BadgeComponent
   ]
 })
-export class HeroModule { }
+export class HeroModule {
+}
