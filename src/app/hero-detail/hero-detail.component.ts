@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
-import {HeroesService} from "../heroes.service";
+import {HeroService} from "../hero.service";
 import {Hero} from "../../declarations";
 
 @Component({
@@ -15,7 +15,7 @@ export class HeroDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private heroesService: HeroesService,
+    private heroesService: HeroService,
     private location: Location
   ) {}
 
